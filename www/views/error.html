@@ -1,0 +1,20 @@
+<div id='main' >
+	<div ng-include="'views/header.html'"></div>
+	<div ng-include="'views/searchBox.html'"></div>
+	<div ng-include="'views/mp.html'"></div>
+	<div id='content'>
+		<img src='images/error.png'/>
+	</div>
+	<div id='tileContainer'>
+		<h4>Related Searches</h4>
+		<div class='tile' ng-repeat="tile in errorRelatedSearches">
+				<div class='tileContent'>
+					<h4>{{tile.header}}</h4>
+					<!-- <p>{{tile.content}}.</p> -->
+				</div>
+				<div class='tileArrow'>
+					<img src='images/rightArrow.svg'/>
+				</div>
+		</div>
+	</div>
+</div>

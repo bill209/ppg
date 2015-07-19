@@ -1,0 +1,121 @@
+@font-face {
+	font-family: "Univers Light";
+	src: url("fonts/Univers/UniversLTStd-Light.eot");
+	src: url("fonts/Univers/UniversLTStd-Light.eot?#iefix") format("embedded-opentype"), url("fonts/Univers/UniversLTStd-Light.woff") format("woff"), url("fonts/Univers/UniversLTStd-Light.ttf") format("truetype"), url("fonts/Univers/UniversLTStd-Light.svg#Univers Light") format("svg");
+	font-weight: 200;
+	font-style: normal;
+}
+html, body { height: 100%; }
+body {
+	color: #333;
+	max-width: 1080px;
+	font-family: "Univers Light";
+}
+
+/* search box */
+#sb {
+	width: 100%;
+	height: 65px;
+	background-color: #fff;
+	background-image: url("../images/rainbow.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#sb #microphone {
+	float: left;
+	margin: 15px 0 0 20px;
+	width: 7%;
+	cursor: pointer;
+}
+#sb input {
+	width: 57%;
+	height: 30px;
+	margin: 12px auto auto 9px;
+	padding: 5px 7px 1px 7px;
+	font-size: 24px;
+
+	border: 1px solid #ccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	outline: 0;
+	-webkit-appearance: none;
+}
+#sb input:focus {
+	border-color: #339933;
+}
+#sb button {
+	float: right;
+	margin: 12px 25px 0 0;
+	height: 40px;
+	cursor: pointer;
+	width: 18%;
+
+	background-color: #0B91C6;
+	font-size: 20px;
+	border: solid 1px #ddd;
+	margin-left: -40px;
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* main page */
+#maincontent {
+	height: 100%;
+	line-height: 800px;
+	background-color: #000;
+	background: url('../images/ppg.png') no-repeat center #000;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+/* content pages */
+#main #searchBox {
+	height: 100%;
+	background-color: #F0F1F1;
+}
+#main #searchBox img{
+	width: 100%;
+}
+
+#main #content img {
+/*	background-color: #fff;*/
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* animation css */
+.slide {
+	background: url('../images/bg.png') right;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.slide.ng-enter,
+.slide.ng-leave {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.slide.ng-enter {
+	left: 100%;
+}
+.slide.ng-enter-active {
+	left: 0;
+}
+.slide.ng-leave {
+	left: 0;
+}
+.slide.ng-leave-active {
+	left: -100%;
+}

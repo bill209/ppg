@@ -1,0 +1,12 @@
+[
+	{"keyword" : "home", "tile" : "ppg" , "outmessage": "" },
+	{"keyword" : "powder puff", "tile" : "ppg" , "outmessage": "" },
+	{"keyword" : "bubbles", "tile" : "bubbles" , "outmessage": "here's bubbles. isn't she cute?" },
+	{"keyword" : "bubble", "tile" : "bubbles" , "outmessage": "here's bubbles. she's a cutie pie." },
+	{"keyword" : "blossom", "tile" : "blossom" , "outmessage": "here's blossom. she's a ginger?" },
+	{"keyword" : "ann", "tile" : "blossom" , "outmessage": "this is not anne, this is blossom. don't let the hair fool you." },
+	{"keyword" : "buttercup", "tile" : "buttercup" , "outmessage": "ooh buttercup. she's a meanie." },
+	{"keyword" : "butter cup", "tile" : "buttercup" , "outmessage": "oohbuttercup. she's a meanie." },
+	{"keyword" : "yabba" , "tile" : "ff", "outmessage": "yaba daba doo" },
+	{"keyword" : "flinstone" , "tile" : "ff", "outmessage": "yaba daba doo" }
+]
