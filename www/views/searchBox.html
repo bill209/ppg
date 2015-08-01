@@ -1,5 +1,7 @@
 	<div id='sb'>
 		<img src='images/microphone.png' id='microphone'  ng-click="speechToText();"/>
-		<input id='textSearch' type='text'ng-model="txt.input">
-		<button id='ask' ng-click="textToText()">search</button>
+		<form ng-submit="textToText()">
+			<input id='textSearch' type='text'ng-model="txt.input">
+			<button type="submit" id='ask'>Submit</button>
+		</form>
 	</div>
