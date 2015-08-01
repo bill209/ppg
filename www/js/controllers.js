@@ -11,11 +11,11 @@
 			$scope.txt = {};
 			$scope.txt.input = '';
 			$scope.matchedResponse = ''
-
+			$scope.func = {};
 			// keeps an eye on connection status, calls noConnection page
 			$scope.$watch('online',function(){
 				if(!$scope.online){
-//					$location.path("/noConnection");
+					$location.path("/noConnection");
 				}
 			});
 
