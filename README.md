@@ -1,5 +1,5 @@
 # ppg
-powderpuff girls
+powerpuff girls
 
 this is a example cordova app that demonstrates the following features:
   angular animate: slide
@@ -8,4 +8,4 @@ this is a example cordova app that demonstrates the following features:
   speech to text: Speech Recognizer   https://github.com/poiuytrez/SpeechRecognizer
     install: cordova plugin add https://github.com/poiuytrez/SpeechRecognizer
 
-to use: type or speak the name of one of the powderpuff girls.  : )
+to use: type or speak the name of one of the powerpuff girls.  : )
